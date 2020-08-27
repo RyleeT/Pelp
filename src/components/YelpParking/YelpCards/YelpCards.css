@@ -1,0 +1,16 @@
+.Card {
+  color: black;
+}
+
+.Card-group {
+  padding: 24.5px 0px;
+  margin: 0px !important;
+}
+
+.Card-list {
+  text-align: left;
+}
+
+.Card-img {
+  max-height: 100px;
+}
