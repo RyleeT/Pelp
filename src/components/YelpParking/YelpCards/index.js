@@ -2,7 +2,7 @@ import React from "react";
 import "./YelpCards.css";
 import { Card, Icon, List, Image } from "semantic-ui-react";
 
-export default function YelpParking(props) {
+export default function YelpCards(props) {
   return (
     <Card.Group className="Card-group" centered>
       {props.parking.map((business) => (
