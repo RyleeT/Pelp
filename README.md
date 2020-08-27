@@ -1,10 +1,18 @@
-## Environmental Variables
+## Quick Start
+
+### `git clone https://github.com/RyleeT/Pelp.git`
+
+### `cd Pelp`
+
+### `npm install`
 
 This project requires environmental variables to run correctly. Please create a ".env" file in the root directory, then add the following two environmental variables.
 
 REACT_APP_API_KEY=[YOUR API KEY]
 
 REACT_APP_BASE_URL=https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search
+
+### `npm start`
 
 ## Available Scripts
 
