@@ -25,7 +25,7 @@ export default function YelpParking(props) {
               <List.Item>
                 <Icon name="chart bar" />
                 {` 
-                {(
+                ${(
                   (business.review_count * business.rating) /
                   (business.review_count + 1)
                 ).toFixed(2)}
