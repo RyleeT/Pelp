@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Environmental Variables
+
+This project requires environmental variables to run correctly. Please create a ".env" file in the root directory, then add the following two environmental variables.
+
+REACT_APP_API_KEY=[YOUR API KEY]
+
+REACT_APP_BASE_URL=https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search
 
 ## Available Scripts
 
